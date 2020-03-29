@@ -12,7 +12,7 @@ public abstract class AbstractResponseService implements ResponseService {
 
 	@Override
 	public String getResponse(String... textParts) throws Exception {
-		if (sets.isEmpty()) updateSongCouplets(null);
+		if (sets.isEmpty()) updateSongVerses(null);
 
 		SongCouplet foundSet = null;
 		for (SongCouplet set : sets) {

@@ -18,7 +18,7 @@ public class DatabaseResponseService extends AbstractResponseService implements 
 	}
 
 	@Override
-	public void updateSongCouplets(String artist) throws Exception {
+	public void updateSongVerses(String artist) throws Exception {
 		sets = artist == null
 				? repository.findAll()
 				: repository.findAllByArtist(artist);

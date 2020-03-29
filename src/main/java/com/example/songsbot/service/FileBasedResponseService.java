@@ -24,7 +24,7 @@ public class FileBasedResponseService extends AbstractResponseService implements
 	}
 
 	@Override
-	public void updateSongCouplets(String artist) throws Exception {
+	public void updateSongVerses(String artist) throws Exception {
 		try {
 			initFile();
 		} catch (FileNotFoundException e) {
